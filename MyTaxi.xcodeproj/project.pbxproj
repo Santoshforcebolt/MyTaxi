@@ -7,22 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A129D002A38A6AC00ED3F94 /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A129CFF2A38A6AC00ED3F94 /* MapViewActionButton.swift */; };
+		1A129D062A38A85E00ED3F94 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A129D052A38A85E00ED3F94 /* LocationSearchView.swift */; };
+		1A129D082A38AC5C00ED3F94 /* LocationSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A129D072A38AC5C00ED3F94 /* LocationSearchResult.swift */; };
+		1A129D0E2A38BB4A00ED3F94 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A129D0D2A38BB4A00ED3F94 /* LocationSearchViewModel.swift */; };
+		1A18AE6E2A5BF24500B5C681 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18AE6D2A5BF24500B5C681 /* ProgressView.swift */; };
 		1A5D26F32A38807500267EB2 /* MyTaxiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D26F22A38807500267EB2 /* MyTaxiApp.swift */; };
-		1A5D26F52A38807500267EB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D26F42A38807500267EB2 /* ContentView.swift */; };
 		1A5D26F72A38807700267EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D26F62A38807700267EB2 /* Assets.xcassets */; };
 		1A5D26FA2A38807700267EB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D26F92A38807700267EB2 /* Preview Assets.xcassets */; };
+		1A5D27082A38811B00267EB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D27072A38811B00267EB2 /* HomeView.swift */; };
+		1A5D270A2A3881FE00267EB2 /* UberMapViewReprenstable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D27092A3881FE00267EB2 /* UberMapViewReprenstable.swift */; };
+		1A5D270C2A3888DF00267EB2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D270B2A3888DF00267EB2 /* LocationManager.swift */; };
+		1A5D270E2A389C0D00267EB2 /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D270D2A389C0D00267EB2 /* LocationSearchActivationView.swift */; };
+		1A66C23B2A40609400E438DE /* TexiRiderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66C23A2A40609400E438DE /* TexiRiderApp.swift */; };
+		1A66C23D2A40609400E438DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66C23C2A40609400E438DE /* ContentView.swift */; };
+		1A66C23F2A40609600E438DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A66C23E2A40609600E438DE /* Assets.xcassets */; };
+		1A66C2422A40609600E438DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A66C2412A40609600E438DE /* Preview Assets.xcassets */; };
+		1A66C2482A40958F00E438DE /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66C2472A40958F00E438DE /* MenuBar.swift */; };
+		1A66C24A2A40A72500E438DE /* MenuDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66C2492A40A72500E438DE /* MenuDataModel.swift */; };
+		1A6A283E2A41D11100C92366 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A283D2A41D11100C92366 /* EditProfileView.swift */; };
+		1A6A28412A41E8D500C92366 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A28402A41E8D500C92366 /* SignUpView.swift */; };
+		1A6A28432A41F9FF00C92366 /* CounteryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A28422A41F9FF00C92366 /* CounteryCode.swift */; };
+		1A6A28452A41FA5600C92366 /* EnterMobileNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6A28442A41FA5600C92366 /* EnterMobileNumber.swift */; };
+		1ABFFDF62A3AFAB100A3E9C3 /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFFDF52A3AFAB100A3E9C3 /* RideView.swift */; };
+		1ABFFDF82A3C430000A3E9C3 /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFFDF72A3C430000A3E9C3 /* RideType.swift */; };
+		1AC1C0902A39CE4700E9D4B0 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1C08F2A39CE4700E9D4B0 /* MapViewState.swift */; };
+		1ADFB0982A42D479002946DB /* Countrries.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ADFB0972A42D479002946DB /* Countrries.json */; };
+		1ADFB09A2A42E337002946DB /* EnterCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0992A42E337002946DB /* EnterCodeView.swift */; };
+		1ADFB09D2A430D84002946DB /* SignUpDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB09C2A430D84002946DB /* SignUpDetailsView.swift */; };
+		1ADFB09F2A432CA4002946DB /* TextFiledModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB09E2A432CA4002946DB /* TextFiledModifier.swift */; };
+		1ADFB0A12A434099002946DB /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0A02A434099002946DB /* PhotoPicker.swift */; };
+		1ADFB0A32A443D74002946DB /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0A22A443D74002946DB /* AuthViewModel.swift */; };
+		1ADFB0A52A445115002946DB /* SignUpDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0A42A445115002946DB /* SignUpDetailsViewModel.swift */; };
+		1ADFB0A82A44729F002946DB /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0A62A446EED002946DB /* AppController.swift */; };
+		1ADFB0AB2A4486CA002946DB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0AA2A4486CA002946DB /* Router.swift */; };
+		1ADFB0AD2A448731002946DB /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0AC2A448731002946DB /* AppContainer.swift */; };
+		1ADFB0B22A457D48002946DB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1ADFB0B12A457D48002946DB /* FirebaseAnalytics */; };
+		1ADFB0B42A457D48002946DB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1ADFB0B32A457D48002946DB /* FirebaseAuth */; };
+		1ADFB0B62A457D48002946DB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1ADFB0B52A457D48002946DB /* FirebaseFirestore */; };
+		1ADFB0B82A457D48002946DB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1ADFB0B72A457D48002946DB /* FirebaseMessaging */; };
+		1ADFB0BA2A457D48002946DB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1ADFB0B92A457D48002946DB /* FirebaseStorage */; };
+		1ADFB0BD2A458E76002946DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ADFB0BC2A458E76002946DB /* GoogleService-Info.plist */; };
+		1ADFB0C02A45A773002946DB /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADFB0BF2A45A773002946DB /* FirebaseManager.swift */; };
+		1AF50B432A571C5B00B92882 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 1AF50B422A571C5B00B92882 /* CodeScanner */; };
+		1AF50B462A571C8300B92882 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50B452A571C8300B92882 /* ScannerView.swift */; };
+		1AF50B492A581BB100B92882 /* ConnectingDriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50B482A581BB100B92882 /* ConnectingDriverView.swift */; };
+		1AF50B4B2A581CBF00B92882 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50B4A2A581CBF00B92882 /* DriverView.swift */; };
+		1AF50B4D2A58397100B92882 /* RideHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50B4C2A58397100B92882 /* RideHistoryView.swift */; };
+		1AF50B502A5857C100B92882 /* LocalNotificatins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50B4F2A5857C100B92882 /* LocalNotificatins.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A129CFF2A38A6AC00ED3F94 /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		1A129D052A38A85E00ED3F94 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		1A129D072A38AC5C00ED3F94 /* LocationSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResult.swift; sourceTree = "<group>"; };
+		1A129D0D2A38BB4A00ED3F94 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		1A18AE6D2A5BF24500B5C681 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		1A5D26EF2A38807500267EB2 /* MyTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5D26F22A38807500267EB2 /* MyTaxiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaxiApp.swift; sourceTree = "<group>"; };
-		1A5D26F42A38807500267EB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A5D26F62A38807700267EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5D26F92A38807700267EB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A5D27072A38811B00267EB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A5D27092A3881FE00267EB2 /* UberMapViewReprenstable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewReprenstable.swift; sourceTree = "<group>"; };
+		1A5D270B2A3888DF00267EB2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1A5D270D2A389C0D00267EB2 /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		1A66C2382A40609400E438DE /* TexiRider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexiRider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A66C23A2A40609400E438DE /* TexiRiderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexiRiderApp.swift; sourceTree = "<group>"; };
+		1A66C23C2A40609400E438DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A66C23E2A40609600E438DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A66C2412A40609600E438DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A66C2472A40958F00E438DE /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		1A66C2492A40A72500E438DE /* MenuDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataModel.swift; sourceTree = "<group>"; };
+		1A6A283D2A41D11100C92366 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		1A6A28402A41E8D500C92366 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		1A6A28422A41F9FF00C92366 /* CounteryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounteryCode.swift; sourceTree = "<group>"; };
+		1A6A28442A41FA5600C92366 /* EnterMobileNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMobileNumber.swift; sourceTree = "<group>"; };
+		1ABFFDF52A3AFAB100A3E9C3 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
+		1ABFFDF72A3C430000A3E9C3 /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
+		1AC1C08F2A39CE4700E9D4B0 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		1ADFB0972A42D479002946DB /* Countrries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Countrries.json; sourceTree = "<group>"; };
+		1ADFB0992A42E337002946DB /* EnterCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCodeView.swift; sourceTree = "<group>"; };
+		1ADFB09C2A430D84002946DB /* SignUpDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDetailsView.swift; sourceTree = "<group>"; };
+		1ADFB09E2A432CA4002946DB /* TextFiledModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledModifier.swift; sourceTree = "<group>"; };
+		1ADFB0A02A434099002946DB /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		1ADFB0A22A443D74002946DB /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		1ADFB0A42A445115002946DB /* SignUpDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDetailsViewModel.swift; sourceTree = "<group>"; };
+		1ADFB0A62A446EED002946DB /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		1ADFB0AA2A4486CA002946DB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		1ADFB0AC2A448731002946DB /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		1ADFB0BB2A45869C002946DB /* MyTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyTaxi.entitlements; sourceTree = "<group>"; };
+		1ADFB0BC2A458E76002946DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Assest/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1ADFB0BE2A458F0C002946DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1ADFB0BF2A45A773002946DB /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		1AF50B452A571C8300B92882 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		1AF50B482A581BB100B92882 /* ConnectingDriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingDriverView.swift; sourceTree = "<group>"; };
+		1AF50B4A2A581CBF00B92882 /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
+		1AF50B4C2A58397100B92882 /* RideHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryView.swift; sourceTree = "<group>"; };
+		1AF50B4F2A5857C100B92882 /* LocalNotificatins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificatins.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1A5D26EC2A38807500267EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADFB0B82A457D48002946DB /* FirebaseMessaging in Frameworks */,
+				1ADFB0B22A457D48002946DB /* FirebaseAnalytics in Frameworks */,
+				1AF50B432A571C5B00B92882 /* CodeScanner in Frameworks */,
+				1ADFB0B42A457D48002946DB /* FirebaseAuth in Frameworks */,
+				1ADFB0BA2A457D48002946DB /* FirebaseStorage in Frameworks */,
+				1ADFB0B62A457D48002946DB /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A66C2352A40609400E438DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,10 +130,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A129D012A38A7FF00ED3F94 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1A129D042A38A82000ED3F94 /* Views */,
+				1A129D022A38A81100ED3F94 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1A129D022A38A81100ED3F94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A129D0D2A38BB4A00ED3F94 /* LocationSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A129D042A38A82000ED3F94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D27072A38811B00267EB2 /* HomeView.swift */,
+				1A5D27092A3881FE00267EB2 /* UberMapViewReprenstable.swift */,
+				1A129CFF2A38A6AC00ED3F94 /* MapViewActionButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1A5D26E62A38807500267EB2 = {
 			isa = PBXGroup;
 			children = (
 				1A5D26F12A38807500267EB2 /* MyTaxi */,
+				1A66C2392A40609400E438DE /* TexiRider */,
 				1A5D26F02A38807500267EB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				1A5D26EF2A38807500267EB2 /* MyTaxi.app */,
+				1A66C2382A40609400E438DE /* TexiRider.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +178,19 @@
 		1A5D26F12A38807500267EB2 /* MyTaxi */ = {
 			isa = PBXGroup;
 			children = (
+				1AF50B4E2A58564800B92882 /* Notifications */,
+				1ADFB0BE2A458F0C002946DB /* Info.plist */,
+				1ADFB0BB2A45869C002946DB /* MyTaxi.entitlements */,
+				1ADFB0A92A4486BA002946DB /* GlobalNavigation */,
+				1A5D27042A3880B900267EB2 /* Modules */,
+				1A5D27032A3880B300267EB2 /* Managers */,
+				1A5D27022A3880AF00267EB2 /* Extensions */,
+				1A5D27012A3880AB00267EB2 /* Core */,
+				1A5D27002A38809400267EB2 /* App */,
 				1A5D26F22A38807500267EB2 /* MyTaxiApp.swift */,
-				1A5D26F42A38807500267EB2 /* ContentView.swift */,
+				1ADFB0AC2A448731002946DB /* AppContainer.swift */,
+				1ADFB0BC2A458E76002946DB /* GoogleService-Info.plist */,
+				1ADFB0A62A446EED002946DB /* AppController.swift */,
 				1A5D26F62A38807700267EB2 /* Assets.xcassets */,
 				1A5D26F82A38807700267EB2 /* Preview Content */,
 			);
@@ -65,6 +203,175 @@
 				1A5D26F92A38807700267EB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A5D27002A38809400267EB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1A5D27012A3880AB00267EB2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1AF50B472A581B9300B92882 /* RideView */,
+				1AF50B442A571C6D00B92882 /* Scanner Code */,
+				1ADFB09B2A430D6F002946DB /* ViewHandle */,
+				1A6A283F2A41E8BB00C92366 /* AuthenticationView */,
+				1A66C2462A40957E00E438DE /* ProfileView */,
+				1ABFFDF42A3AFA9E00A3E9C3 /* Trip */,
+				1A129D012A38A7FF00ED3F94 /* Home */,
+				1A5D27062A3880EE00267EB2 /* Views */,
+				1A5D27052A3880EB00267EB2 /* ViewModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A5D27022A3880AF00267EB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFB09E2A432CA4002946DB /* TextFiledModifier.swift */,
+				1ADFB0A02A434099002946DB /* PhotoPicker.swift */,
+				1A18AE6D2A5BF24500B5C681 /* ProgressView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A5D27032A3880B300267EB2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D270B2A3888DF00267EB2 /* LocationManager.swift */,
+				1ADFB0BF2A45A773002946DB /* FirebaseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1A5D27042A3880B900267EB2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1AC1C08F2A39CE4700E9D4B0 /* MapViewState.swift */,
+				1ABFFDF72A3C430000A3E9C3 /* RideType.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1A5D27052A3880EB00267EB2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1A5D27062A3880EE00267EB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D270D2A389C0D00267EB2 /* LocationSearchActivationView.swift */,
+				1A129D072A38AC5C00ED3F94 /* LocationSearchResult.swift */,
+				1A129D052A38A85E00ED3F94 /* LocationSearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A66C2392A40609400E438DE /* TexiRider */ = {
+			isa = PBXGroup;
+			children = (
+				1A66C23A2A40609400E438DE /* TexiRiderApp.swift */,
+				1A66C23C2A40609400E438DE /* ContentView.swift */,
+				1A66C23E2A40609600E438DE /* Assets.xcassets */,
+				1A66C2402A40609600E438DE /* Preview Content */,
+			);
+			path = TexiRider;
+			sourceTree = "<group>";
+		};
+		1A66C2402A40609600E438DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A66C2412A40609600E438DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A66C2462A40957E00E438DE /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A283C2A41D08000C92366 /* ProileStack */,
+				1A66C2472A40958F00E438DE /* MenuBar.swift */,
+				1A66C2492A40A72500E438DE /* MenuDataModel.swift */,
+				1AF50B4C2A58397100B92882 /* RideHistoryView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		1A6A283C2A41D08000C92366 /* ProileStack */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A283D2A41D11100C92366 /* EditProfileView.swift */,
+			);
+			path = ProileStack;
+			sourceTree = "<group>";
+		};
+		1A6A283F2A41E8BB00C92366 /* AuthenticationView */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A28402A41E8D500C92366 /* SignUpView.swift */,
+				1A6A28442A41FA5600C92366 /* EnterMobileNumber.swift */,
+				1ADFB0992A42E337002946DB /* EnterCodeView.swift */,
+				1A6A28422A41F9FF00C92366 /* CounteryCode.swift */,
+				1ADFB0972A42D479002946DB /* Countrries.json */,
+				1ADFB0A22A443D74002946DB /* AuthViewModel.swift */,
+			);
+			path = AuthenticationView;
+			sourceTree = "<group>";
+		};
+		1ABFFDF42A3AFA9E00A3E9C3 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				1ABFFDF52A3AFAB100A3E9C3 /* RideView.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		1ADFB09B2A430D6F002946DB /* ViewHandle */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFB09C2A430D84002946DB /* SignUpDetailsView.swift */,
+				1ADFB0A42A445115002946DB /* SignUpDetailsViewModel.swift */,
+			);
+			path = ViewHandle;
+			sourceTree = "<group>";
+		};
+		1ADFB0A92A4486BA002946DB /* GlobalNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				1ADFB0AA2A4486CA002946DB /* Router.swift */,
+			);
+			path = GlobalNavigation;
+			sourceTree = "<group>";
+		};
+		1AF50B442A571C6D00B92882 /* Scanner Code */ = {
+			isa = PBXGroup;
+			children = (
+				1AF50B452A571C8300B92882 /* ScannerView.swift */,
+			);
+			path = "Scanner Code";
+			sourceTree = "<group>";
+		};
+		1AF50B472A581B9300B92882 /* RideView */ = {
+			isa = PBXGroup;
+			children = (
+				1AF50B482A581BB100B92882 /* ConnectingDriverView.swift */,
+				1AF50B4A2A581CBF00B92882 /* DriverView.swift */,
+			);
+			path = RideView;
+			sourceTree = "<group>";
+		};
+		1AF50B4E2A58564800B92882 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1AF50B4F2A5857C100B92882 /* LocalNotificatins.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +390,33 @@
 			dependencies = (
 			);
 			name = MyTaxi;
+			packageProductDependencies = (
+				1ADFB0B12A457D48002946DB /* FirebaseAnalytics */,
+				1ADFB0B32A457D48002946DB /* FirebaseAuth */,
+				1ADFB0B52A457D48002946DB /* FirebaseFirestore */,
+				1ADFB0B72A457D48002946DB /* FirebaseMessaging */,
+				1ADFB0B92A457D48002946DB /* FirebaseStorage */,
+				1AF50B422A571C5B00B92882 /* CodeScanner */,
+			);
 			productName = MyTaxi;
 			productReference = 1A5D26EF2A38807500267EB2 /* MyTaxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A66C2372A40609400E438DE /* TexiRider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A66C2452A40609600E438DE /* Build configuration list for PBXNativeTarget "TexiRider" */;
+			buildPhases = (
+				1A66C2342A40609400E438DE /* Sources */,
+				1A66C2352A40609400E438DE /* Frameworks */,
+				1A66C2362A40609400E438DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TexiRider;
+			productName = TexiRider;
+			productReference = 1A66C2382A40609400E438DE /* TexiRider.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,6 +432,9 @@
 					1A5D26EE2A38807500267EB2 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					1A66C2372A40609400E438DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 1A5D26EA2A38807500267EB2 /* Build configuration list for PBXProject "MyTaxi" */;
@@ -111,11 +446,16 @@
 				Base,
 			);
 			mainGroup = 1A5D26E62A38807500267EB2;
+			packageReferences = (
+				1ADFB0B02A457D47002946DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1AF50B412A571C5B00B92882 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 1A5D26F02A38807500267EB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1A5D26EE2A38807500267EB2 /* MyTaxi */,
+				1A66C2372A40609400E438DE /* TexiRider */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +465,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADFB0BD2A458E76002946DB /* GoogleService-Info.plist in Resources */,
 				1A5D26FA2A38807700267EB2 /* Preview Assets.xcassets in Resources */,
 				1A5D26F72A38807700267EB2 /* Assets.xcassets in Resources */,
+				1ADFB0982A42D479002946DB /* Countrries.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A66C2362A40609400E438DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A66C2422A40609600E438DE /* Preview Assets.xcassets in Resources */,
+				1A66C23F2A40609600E438DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +488,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5D26F52A38807500267EB2 /* ContentView.swift in Sources */,
+				1A6A283E2A41D11100C92366 /* EditProfileView.swift in Sources */,
+				1AF50B4D2A58397100B92882 /* RideHistoryView.swift in Sources */,
+				1A129D0E2A38BB4A00ED3F94 /* LocationSearchViewModel.swift in Sources */,
+				1A129D062A38A85E00ED3F94 /* LocationSearchView.swift in Sources */,
+				1A5D270C2A3888DF00267EB2 /* LocationManager.swift in Sources */,
+				1AC1C0902A39CE4700E9D4B0 /* MapViewState.swift in Sources */,
+				1ABFFDF62A3AFAB100A3E9C3 /* RideView.swift in Sources */,
+				1ADFB09F2A432CA4002946DB /* TextFiledModifier.swift in Sources */,
+				1A129D002A38A6AC00ED3F94 /* MapViewActionButton.swift in Sources */,
+				1A6A28452A41FA5600C92366 /* EnterMobileNumber.swift in Sources */,
+				1A66C2482A40958F00E438DE /* MenuBar.swift in Sources */,
+				1AF50B492A581BB100B92882 /* ConnectingDriverView.swift in Sources */,
+				1ADFB09A2A42E337002946DB /* EnterCodeView.swift in Sources */,
+				1AF50B4B2A581CBF00B92882 /* DriverView.swift in Sources */,
+				1A129D082A38AC5C00ED3F94 /* LocationSearchResult.swift in Sources */,
+				1ADFB0AB2A4486CA002946DB /* Router.swift in Sources */,
+				1ADFB0A12A434099002946DB /* PhotoPicker.swift in Sources */,
+				1A5D27082A38811B00267EB2 /* HomeView.swift in Sources */,
+				1AF50B502A5857C100B92882 /* LocalNotificatins.swift in Sources */,
 				1A5D26F32A38807500267EB2 /* MyTaxiApp.swift in Sources */,
+				1ADFB0C02A45A773002946DB /* FirebaseManager.swift in Sources */,
+				1ADFB0A52A445115002946DB /* SignUpDetailsViewModel.swift in Sources */,
+				1A6A28432A41F9FF00C92366 /* CounteryCode.swift in Sources */,
+				1A18AE6E2A5BF24500B5C681 /* ProgressView.swift in Sources */,
+				1A66C24A2A40A72500E438DE /* MenuDataModel.swift in Sources */,
+				1ADFB0A32A443D74002946DB /* AuthViewModel.swift in Sources */,
+				1ADFB0AD2A448731002946DB /* AppContainer.swift in Sources */,
+				1A6A28412A41E8D500C92366 /* SignUpView.swift in Sources */,
+				1A5D270A2A3881FE00267EB2 /* UberMapViewReprenstable.swift in Sources */,
+				1ADFB0A82A44729F002946DB /* AppController.swift in Sources */,
+				1AF50B462A571C8300B92882 /* ScannerView.swift in Sources */,
+				1ADFB09D2A430D84002946DB /* SignUpDetailsView.swift in Sources */,
+				1A5D270E2A389C0D00267EB2 /* LocationSearchActivationView.swift in Sources */,
+				1ABFFDF82A3C430000A3E9C3 /* RideType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A66C2342A40609400E438DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A66C23D2A40609400E438DE /* ContentView.swift in Sources */,
+				1A66C23B2A40609400E438DE /* TexiRiderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,23 +656,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyTaxi/MyTaxi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTaxi/Preview Content\"";
+				DEVELOPMENT_TEAM = T8BGK4PU6S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTaxi/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access your location to find you nearby drivers and rides";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloudanalogy.MyTaxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudAnalogy.MyTaxiCARide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,9 +691,45 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyTaxi/MyTaxi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTaxi/Preview Content\"";
+				DEVELOPMENT_TEAM = T8BGK4PU6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTaxi/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access your location to find you nearby drivers and rides";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudAnalogy.MyTaxiCARide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A66C2432A40609600E438DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TexiRider/Preview Content\"";
+				DEVELOPMENT_TEAM = QWTC5S264G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +742,36 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloudanalogy.MyTaxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudanalogy.TexiRider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A66C2442A40609600E438DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TexiRider/Preview Content\"";
+				DEVELOPMENT_TEAM = QWTC5S264G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudanalogy.TexiRider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,7 +800,68 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1A66C2452A40609600E438DE /* Build configuration list for PBXNativeTarget "TexiRider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A66C2432A40609600E438DE /* Debug */,
+				1A66C2442A40609600E438DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1ADFB0B02A457D47002946DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		1AF50B412A571C5B00B92882 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ADFB0B12A457D48002946DB /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ADFB0B02A457D47002946DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1ADFB0B32A457D48002946DB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ADFB0B02A457D47002946DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1ADFB0B52A457D48002946DB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ADFB0B02A457D47002946DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1ADFB0B72A457D48002946DB /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ADFB0B02A457D47002946DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		1ADFB0B92A457D48002946DB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ADFB0B02A457D47002946DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		1AF50B422A571C5B00B92882 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AF50B412A571C5B00B92882 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A5D26E72A38807500267EB2 /* Project object */;
 }
